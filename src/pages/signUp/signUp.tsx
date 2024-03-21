@@ -1,9 +1,11 @@
-import React from 'react'
+import { Container } from "./signup.styles.ts";
 
 function SignUp() {
   return (
-    <div>sgnUp</div>
-  )
+    <Container>
+      <h1>sgnUp</h1>
+    </Container>
+  );
 }
 
 export default SignUp;
