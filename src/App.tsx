@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
 
-        <Footer />
+        <Footer/>
       </div>
     </>
   );
