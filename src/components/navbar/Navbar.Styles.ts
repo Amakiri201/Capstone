@@ -95,33 +95,33 @@ export const Ul = styled.ul`
   }
 `;
 
-export const Mobile = styled.div`
-  @media screen and (max-width: 769px) {
-    top: 0;
-    z-index: 60;
-    height: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #4f4081;
-    transition: right 0.3s ease-in-out;
-    right: ${({ isMenuToggled }) => (isMenuToggled ? "0" : "-100%")};
-  }
-`;
+// export const Mobile = styled.div`
+//   @media screen and (max-width: 769px) {
+//     top: 0;
+//     z-index: 60;
+//     height: 100%;
+//     display: flex;
+//     position: fixed;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: center;
+//     background-color: #4f4081;
+//     transition: right 0.3s ease-in-out;
+//     right: ${({ isMenuToggled }) => (isMenuToggled ? "0" : "-100%")};
+//   }
+// `;
 
-export const MenuButton = styled.button`
-  @media screen and (min-width: 769px) {
-    display: none;
-  }
-`;
+// export const MenuButton = styled.button`
+//   @media screen and (min-width: 769px) {
+//     display: none;
+//   }
+// `;
 
-export const MenuCloseButton = styled.button`
-  @media screen and (min-width: 769px) {
-    display: none;
-  }
-`;
+// export const MenuCloseButton = styled.button`
+//   @media screen and (min-width: 769px) {
+//     display: none;
+//   }
+// `;
 
 export const BtnContainer = styled.div``;
 

@@ -16,7 +16,7 @@ export const WhyScissor = () => {
           is second to none.
          
         </p>
-        <Link to="/">LEARN MORE ABOUT US</Link>
+        <Link>LEARN MORE ABOUT US</Link>
       </Info>
 
       <Session>
